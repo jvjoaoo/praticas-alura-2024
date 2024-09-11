@@ -4,4 +4,4 @@ Primeiro curso da Grade:
 A partir do zero: iniciante em programação
 O caminho das pedras para entrar no universo da programação e começar com a criação de sites utilizando as linguagens populares CSS, HTML e JavaScript.
 
-Meu progresso até o momento: 25%
+Meu progresso até o momento: 43%
