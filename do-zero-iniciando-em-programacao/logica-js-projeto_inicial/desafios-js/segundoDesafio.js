@@ -21,7 +21,7 @@ if (numeroDigitado <= 0) {
 }
 */
 //3- Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
-const pontuacaoGame = 100
+/*const pontuacaoGame = 100
 const valorSoma = 10
 let jogadorUm = 0
 let inicioGame = prompt("Quanto é 5 + 5: ")
@@ -34,3 +34,22 @@ if (inicioGame == valorSoma) {
 } else {
   alert("Ops! tente novamente")
 }
+*/
+
+//4- Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+/*let saldoConta = 1000
+
+let consultaSaldo = prompt("Quanto você gostaria de gastar? ")
+
+if (consultaSaldo <= saldoConta) {
+  alert(
+    `Eba, você tem limite disponível para uso! Seu limite atual é de ${saldoConta}`
+  )
+} else {
+  alert("Desculpe, saldo indisponível")
+}
+  */
+//5- Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+let nomeUsuario = prompt("Informe o seu nome: ")
+
+alert(`Olá ${nomeUsuario} seja bem-vindo às práticas de JavaScript`)
