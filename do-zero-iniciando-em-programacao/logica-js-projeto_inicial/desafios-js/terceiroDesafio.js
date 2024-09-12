@@ -16,5 +16,11 @@ while (numeroContador >= 0) {
 */
 
 //3- Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+/*let numeroEscolhido = prompt("Digite um número")
 
+while (numeroEscolhido >= 0) {
+  console.log(numeroEscolhido)
+  numeroEscolhido--
+}
+*/
 //4- Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
