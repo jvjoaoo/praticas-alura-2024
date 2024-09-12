@@ -1,0 +1,9 @@
+Break em JavaScript - Aula Boas práticas da programação
+
+A aula de hoje foi sobre o break e como ele pode nos ajudar a controlar o fluxo do nosso código, especialmente dentro de laços de repetição. Imagine que você está em uma fila de espera para comprar um ingresso para um show. Você está na fila, esperando pacientemente,
+mas de repente, alguém grita: "O show acabou!". Nesse momento, você não precisa mais ficar na fila, certo? Você pode simplesmente sair e ir para casa. O break funciona como esse grito: ele interrompe o laço de repetição, como se você estivesse saindo da fila. No nosso
+código, o laço de repetição while é como a fila. Ele continua repetindo as instruções até que uma condição seja satisfeita. No caso do nosso jogo, a condição é acertar o número secreto. Quando você acerta, o break é acionado, como se o show tivesse acabado, e o laço de
+repetição é interrompido. Mas, assim como você não pode simplesmente sair da fila sem pegar seu ingresso, o break também precisa de uma condição para ser acionado. No nosso código, a condição é chute == numeroSecreto. Ou seja, o break só é acionado quando o chute do 
+jogador for igual ao número secreto. E assim como você pode sair da fila e ir para casa, o break também pode ser usado para sair de outros tipos de laços de repetição, como o for. Espero que essa analogia tenha te ajudado a entender o break!  Agora, que tal você tentar 
+usar o break em um novo código?  Você pode criar um código que peça ao usuário para digitar um número até que ele digite o número 10. Quando o usuário digitar o número 10, o laço de repetição deve ser interrompido. Lembre-se de usar o break para interromper o laço quando a 
+condição for satisfeita!  Estou aqui para te ajudar se precisar! 
