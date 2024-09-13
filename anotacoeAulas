@@ -7,3 +7,22 @@ repetição é interrompido. Mas, assim como você não pode simplesmente sair d
 jogador for igual ao número secreto. E assim como você pode sair da fila e ir para casa, o break também pode ser usado para sair de outros tipos de laços de repetição, como o for. Espero que essa analogia tenha te ajudado a entender o break!  Agora, que tal você tentar 
 usar o break em um novo código?  Você pode criar um código que peça ao usuário para digitar um número até que ele digite o número 10. Quando o usuário digitar o número 10, o laço de repetição deve ser interrompido. Lembre-se de usar o break para interromper o laço quando a 
 condição for satisfeita!  Estou aqui para te ajudar se precisar! 
+
+Operador ternário:
+
+O operador ternário é como um atalho para fazer a decisão if e else. Ele é como um "se... então... senão"
+que a gente escreve em uma linha só.
+
+Imagine que você está em uma loja de roupas e precisa escolher um vestido.
+
+Se você gostar do vestido vermelho, você compra ele.
+Se você não gostar do vestido vermelho, você compra outro vestido.
+O operador ternário funciona da mesma forma. Ele verifica se uma condição é verdadeira. Se for, ele executa uma ação. Se não for, 
+ele executa outra ação.
+
+No nosso código, a condição é: "A pessoa fez mais de uma tentativa?".
+
+Se a condição for verdadeira, a palavra "tentativa" vai ser usada no plural.
+Se a condição for falsa, a palavra "tentativa" vai ser usada no singular.
+O operador ternário é uma ferramenta poderosa que nos ajuda a escrever código mais limpo e eficiente. Ele é como um atalho que nos 
+permite fazer decisões rápidas e simples.
