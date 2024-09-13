@@ -24,3 +24,9 @@ console.log(`Desculpe ${userName}, não podemos prosseguir com o seu atendimento
 } else {
 console.log(`Olá ${userName} o senhor fez uma compra de ${valorFormatado}, gostaria de dar continuidade no atendimento?`)
 }
+
+//Bugs com o código acima:
+// 1° O algoritmo não identifica se o usuário e feminino ou masculino -> "Olá Ana o senhor fez..."
+// 2° O algoritmo não está considerando o valor da compra como milhar
+
+//outros bugs --> em análise
