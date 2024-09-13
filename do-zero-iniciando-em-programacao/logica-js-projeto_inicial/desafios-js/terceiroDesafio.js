@@ -24,3 +24,9 @@ while (numeroEscolhido >= 0) {
 }
 */
 //4- Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+let valorDeclarado = parseInt(prompt("Digite um valor: "))
+let inicioContador = 0
+
+while (valorDeclarado > inicioContador) {
+  console.log(inicioContador)
+}
