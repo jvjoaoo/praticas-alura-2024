@@ -26,3 +26,11 @@ Se a condição for verdadeira, a palavra "tentativa" vai ser usada no plural.
 Se a condição for falsa, a palavra "tentativa" vai ser usada no singular.
 O operador ternário é uma ferramenta poderosa que nos ajuda a escrever código mais limpo e eficiente. Ele é como um atalho que nos 
 permite fazer decisões rápidas e simples.
+
+Resumo da aula Math.random()
+Vimos como gerar números aleatórios em JavaScript usando a função Math.random().
+
+Vimos que Math.random() gera um número decimal entre 0 (inclusive) e 1 (exclusivo). Para obter um número inteiro entre 0 e 9, 
+multiplicamos o resultado de Math.random() por 10 e usamos a função parseInt() para remover as casas decimais.
+
+Para gerar um número inteiro entre 1 e 10, basta adicionar 1 ao resultado da operação parseInt(Math.random() * 10).
