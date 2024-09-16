@@ -1,5 +1,11 @@
-alert("Boas vindas ao jogo do número secreto")
-let numeroMaximo = 5000
+//alert("Boas vindas ao jogo do número secreto")
+let titulo = document.querySelector('h1');
+titulo.innerHTML = "Jogo do número Secreto"
+let paragrafo = document.querySelector(".texto__paragrafo");
+paragrafo.innerHTML = "Digite um número entre 1 e 5"
+
+
+/*let numeroMaximo = 5
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1)
 console.log(numeroSecreto)
 let numeroEscolhido
@@ -26,6 +32,7 @@ let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa"
 alert(
   `Isso ai você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`
 )
+*/
 
 //if (tentativas > 1) {
 //  alert(
