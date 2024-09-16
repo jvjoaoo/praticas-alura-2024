@@ -1,3 +1,12 @@
+//Laço/loop de repetiçãp Enquanto - While em JavaScript
+Resumão geral:
+
+01- O loop while, é como um "enquanto" na programação. Ele permite que um bloco de código seja executado enquanto uma condição for verdadeira.
+  1.1 Imagine um jogo de adivinhar um número secreto. O while faz com que o jogo continue pedindo um chute enquanto o jogador não acertar o número secreto.
+
+02- Vimos também como usar os operadores de comparação (!=, ==, >), que são como os sinais matemáticos que usamos na escola, mas aqui comparamos variáveis!
+
+
 Break em JavaScript - Aula Boas práticas da programação
 
 A aula de hoje foi sobre o break e como ele pode nos ajudar a controlar o fluxo do nosso código, especialmente dentro de laços de repetição. Imagine que você está em uma fila de espera para comprar um ingresso para um show. Você está na fila, esperando pacientemente,
