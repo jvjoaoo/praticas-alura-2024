@@ -1,9 +1,12 @@
 //alert("Boas vindas ao jogo do número secreto")
-let titulo = document.querySelector('h1');
+let titulo = document.querySelector("h1")
 titulo.innerHTML = "Jogo do número Secreto"
-let paragrafo = document.querySelector(".texto__paragrafo");
+let paragrafo = document.querySelector(".texto__paragrafo")
 paragrafo.innerHTML = "Digite um número entre 1 e 5"
 
+function verificarChute() {
+  console.log("Chute verificado")
+}
 
 /*let numeroMaximo = 5
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1)
