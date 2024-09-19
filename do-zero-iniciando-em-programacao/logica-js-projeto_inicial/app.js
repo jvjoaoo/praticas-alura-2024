@@ -1,11 +1,22 @@
-//alert("Boas vindas ao jogo do número secreto")
-let titulo = document.querySelector("h1")
-titulo.innerHTML = "Jogo do número Secreto"
-let paragrafo = document.querySelector(".texto__paragrafo")
-paragrafo.innerHTML = "Digite um número entre 1 e 5"
+let numeroSecreto = gerarNumeroAleatorio()
+
+// funções com parâmetros em JavaScript
+function exibirTextoNaTela(tag, texto) {
+  let campo = document.querySelector(tag)
+  campo.innerHTML = texto
+}
+
+exibirTextoNaTela("h1", "Jogo do número secreto")
+exibirTextoNaTela("p", "Digite um número entre 1 e 5")
 
 function verificarChute() {
-  console.log("Chute verificado")
+  let chute = document.querySelector("input").value
+  console.log(chute == numeroSecreto)
+}
+
+//Funções com retorno
+function gerarNumeroAleatorio() {
+  return parseInt(Math.random() * 10 + 1)
 }
 
 /*let numeroMaximo = 5
