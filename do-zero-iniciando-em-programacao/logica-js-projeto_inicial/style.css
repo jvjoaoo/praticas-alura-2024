@@ -54,6 +54,7 @@ body::before {
 }
 
 .container__botao {
+    cursor: pointer;
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
@@ -63,6 +64,7 @@ body::before {
     border: none;
     margin-top: 2rem;
 }
+
 
 .container__texto {
     margin: 16px 0 16px 0;
@@ -109,6 +111,11 @@ button {
 button:disabled {
     background-color: gray;
 }
+.reiniciar:hover{
+    transition: ease-in-out .2s;
+    background-color: #1875E8;
+}
+
 
 @media screen and (max-width: 1250px) {
 
