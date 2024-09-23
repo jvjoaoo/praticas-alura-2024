@@ -47,7 +47,7 @@ Para gerar um número inteiro entre 1 e 10, basta adicionar 1 ao resultado da op
 
 Funções com JavaScript
 
-Funções com parâmetro -  Analogia Luri
+- Funções com parâmetro -  Analogia Luri
 
 Imagine que você está organizando uma festa e precisa preparar várias coisas: bolo, salgadinhos, bebidas, etc. Você pode
  fazer tudo sozinho, mas seria muito trabalhoso, né?
@@ -74,5 +74,20 @@ As funções são como "receitas" que você cria para realizar tarefas específi
 Os parâmetros são como os ingredientes que você precisa para executar a tarefa.
 Chamar a função é como dizer "faz o bolo" ou "faz os salgadinhos".
 Assim, você organiza melhor o seu código, evita repetições e deixa ele mais fácil de entender e de modificar!
+
+- Funções com retorno (return) - Analogia Luri
+
+Funções sem retorno: São como os pratos prontos. Você recebe o prato pronto, mas não 
+tem controle sobre os ingredientes ou como ele foi feito. Por exemplo, a função 
+exibirTextoNaTela() mostra um texto na tela, mas não te dá o texto de volta.
+
+Funções com retorno: São como os pratos personalizados. Você pode escolher os 
+ingredientes e como o prato será feito. Por exemplo, a função gerarNumeroAleatorio() 
+te dá um número aleatório, mas você pode escolher como esse número será gerado.
+
+A palavra-chave return é como o garçom que te entrega o prato. Ele te entrega o prato 
+pronto, que você pode usar como quiser. No caso da função gerarNumeroAleatorio(), o 
+return te entrega o número aleatório que você pode usar para outras coisas, como 
+guardar em uma variável.
 
 
