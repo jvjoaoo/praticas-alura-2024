@@ -43,3 +43,36 @@ Vimos que Math.random() gera um número decimal entre 0 (inclusive) e 1 (exclusi
 multiplicamos o resultado de Math.random() por 10 e usamos a função parseInt() para remover as casas decimais.
 
 Para gerar um número inteiro entre 1 e 10, basta adicionar 1 ao resultado da operação parseInt(Math.random() * 10).
+
+
+Funções com JavaScript
+
+Funções com parâmetro -  Analogia Luri
+
+Imagine que você está organizando uma festa e precisa preparar várias coisas: bolo, salgadinhos, bebidas, etc. Você pode
+ fazer tudo sozinho, mas seria muito trabalhoso, né?
+
+Sem funções:
+
+Você faria cada tarefa separadamente:
+Bolo: Comprar os ingredientes, bater a massa, assar, decorar...
+Salgadinhos: Comprar os ingredientes, preparar a massa, fritar, etc.
+Bebidas: Comprar as bebidas, gelar...
+Com funções:
+
+Você pode criar "receitas" (funções) para cada tarefa:
+Função "FazerBolo": Recebe como ingredientes (parâmetros) a farinha, ovos, açúcar, etc. e executa as etapas para fazer o bolo.
+Função "FazerSalgadinhos": Recebe como ingredientes (parâmetros) a massa, o recheio, etc. e executa as etapas para fazer 
+os salgadinhos.
+Função "PrepararBebidas": Recebe como ingredientes (parâmetros) as bebidas e executa as etapas para gelar.
+Dessa forma, você só precisa chamar a função "FazerBolo" com os ingredientes certos, a função "FazerSalgadinhos" com os 
+ingredientes certos e a função "PrepararBebidas" com as bebidas certas.
+
+No código:
+
+As funções são como "receitas" que você cria para realizar tarefas específicas.
+Os parâmetros são como os ingredientes que você precisa para executar a tarefa.
+Chamar a função é como dizer "faz o bolo" ou "faz os salgadinhos".
+Assim, você organiza melhor o seu código, evita repetições e deixa ele mais fácil de entender e de modificar!
+
+
