@@ -11,7 +11,18 @@ exibirTextoNaTela("p", "Digite um número entre 1 e 5")
 
 function verificarChute() {
   let chute = document.querySelector("input").value
-  console.log(chute == numeroSecreto)
+
+  if (chute == numeroSecreto){
+    exibirTextoNaTela('h1', 'Acertou')
+    exibirTextoNatela('p', 'Você descobriu o número secreto!')
+  } else {
+    if (chute > numeroSecreto){
+      exibirTextoNaTela('h1', 'Ops! número errado')
+      exibirTextoNaTela('p', 'O número secreto é menor')
+    } else {
+      exibirTextoNaTela('p', 'O número secreto é maior')
+    }
+  }
 }
 
 //Funções com retorno
