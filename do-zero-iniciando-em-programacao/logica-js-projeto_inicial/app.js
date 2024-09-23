@@ -1,4 +1,5 @@
 let numeroSecreto = gerarNumeroAleatorio()
+console.log(numeroSecreto)
 
 // funções com parâmetros em JavaScript
 function exibirTextoNaTela(tag, texto) {
@@ -14,7 +15,7 @@ function verificarChute() {
 
   if (chute == numeroSecreto){
     exibirTextoNaTela('h1', 'Acertou')
-    exibirTextoNatela('p', 'Você descobriu o número secreto!')
+    exibirTextoNaTela('p', 'Você descobriu o número secreto!')
   } else {
     if (chute > numeroSecreto){
       exibirTextoNaTela('h1', 'Ops! número errado')
@@ -27,7 +28,7 @@ function verificarChute() {
 
 //Funções com retorno
 function gerarNumeroAleatorio() {
-  return parseInt(Math.random() * 10 + 1)
+  return parseInt(Math.random() * 5 + 1)
 }
 
 /*let numeroMaximo = 5
