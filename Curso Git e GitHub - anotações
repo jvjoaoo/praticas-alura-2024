@@ -6,6 +6,12 @@ Comandos Git
 - git push: subir as mudanças para o repositório
 - git pull: baixar as mudanças para o repositório local
 
+- git revert: Utilizado para desfazer um commit passo a passo a baixo:
+   1. Primeiro passo: verificar nosso histórico de commits através do git log
+   2. Segundo passo: Depois de localizar o commit que precisa ser desfeito, copiamos a ID dele que fica na parte superior do commit destacado em amarelo (Obs, no VSCode está em amarelo)
+   3. Terceiro passo: aplicamos o comando git revert e em seguida colamos o ID do commit que foi selecionado.
+   4. Quarto e último passo: sincronizamos o git com o comando git push origin main
+
 Quando estamos trabalhando em um projeto utilizando o versionamento Git e a IDE VSCode, ao adicionar ou alterar algum arquivo aparece uma sinalização ao lado do nome desses arquivos no VSCode.
 
 Mas o que isso significa?
@@ -34,10 +40,6 @@ Um commit deve ser realizado sempre que você finalizar uma tarefa específica o
 Assim, é importante realizar commits frequentemente. Porém, evite realizar commits muito pequenos ou muito grandes, pois isso pode tornar difícil o seu entendimento.
 
 Lembre-se de nunca realizar um commit de um código que você sabe que contém bugs. O ideal é que o commit contenha somente código funcional.
-
-
-
-
 
 
 
