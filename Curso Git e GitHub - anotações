@@ -12,6 +12,18 @@ Comandos Git
    3. Terceiro passo: aplicamos o comando git revert e em seguida colamos o ID do commit que foi selecionado.
    4. Quarto e último passo: sincronizamos o git com o comando git push origin main
 
+- git reset --hard: Comando utilizado para apagar um commit
+  O comando git reset permite redefinir a posição da branch atual para um commit anterior, removendo os commits posteriores do histórico.
+   1. Primeiro passo: verificar nosso histórico de commits através do git log
+   2. Segundo passo: Depois de localizar o commit que precisa ser desfeito, copiamos a ID dele que fica na parte superior do commit destacado em amarelo (Obs, no VSCode está em amarelo)
+   3. Terceiro passo: aplicamos o comando git reset e em seguida colamos o ID do commit que foi selecionado.
+  Pontos de atenção, sempre que usarmos o git reset, precisamos pegar o ID do commit que desejamos voltar e não do commit que será deletado, do contrario a exclusão do commit não será efetuada. 
+
+-git commit --amend -m: Comando utilizado para alterar a mensagem de um commit, exemplo: git commi --amend -m "Trocando uma mensagem"
+
+
+
+
 Quando estamos trabalhando em um projeto utilizando o versionamento Git e a IDE VSCode, ao adicionar ou alterar algum arquivo aparece uma sinalização ao lado do nome desses arquivos no VSCode.
 
 Mas o que isso significa?
