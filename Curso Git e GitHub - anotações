@@ -1,5 +1,5 @@
 Comandos Git
-
+- git branch -M main > Troca a nomenclatura de "master" para "main"
 - git status: verificar quais arquivos foram modificados 
 - git add: adicionar as mudanças do projeto (variações: git add . ou git add --all)
 - git commit: registrar as mudanças no repositório
